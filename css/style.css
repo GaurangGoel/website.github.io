@@ -282,6 +282,76 @@ p {
 
 /* End home Section */
 
+/* aehome Section */
+#ae {
+	background-image: url(../images/aebg.png);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+#ae::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.25;
+	z-index: -1;
+}
+#ae .ae {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+#ae h2 {
+	display: block;
+	width: fit-content;
+	font-size: 1.8rem;
+	letter-spacing: 0.2rem;
+	font-weight: 400;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	position: relative;
+	color: white;
+	
+}
+
+#ae ul {
+	display: block;
+	width: fit-content;
+	font-size: 1.6rem;
+	letter-spacing: 0.2rem;
+	font-weight: 200;
+	position: relative;
+	margin-left: 1em;
+	color: white;	
+}
+
+#ae ul span {
+	color: #00b4ff;
+}
+
+.ae-title {
+	font-size: 5rem;
+	font-weight: 300;
+	color: white;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: left;
+
+}
+.ae-title span {
+	color: #00b4ff;
+}
+
+
+/* End home Section */
+
 /* Services Section */
 #services .services {
 	flex-direction: column;
