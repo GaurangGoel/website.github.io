@@ -282,7 +282,7 @@ p {
 
 /* End home Section */
 
-/* AE Section */
+/* AE Section 
 #ae {
 	background-image: url(../images/aebg.png);
 	background-size: cover;
@@ -348,9 +348,8 @@ p {
 .ae-title span {
 	color: #00b4ff;
 }
+*/
 
-
-/* End home Section */
 
 /* Services Section */
 #services .services {
