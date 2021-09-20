@@ -534,7 +534,7 @@ p {
 }
 /* End About Section */
 
-/* contact Section */
+/* contact Section 
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
@@ -577,7 +577,7 @@ p {
 	font-weight: 500;
 }
 
-/*End contact Section */
+End contact Section */
 
 /* Footer */
 #footer {
