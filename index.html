@@ -1,202 +1,688 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Gaurang Goel</title>
+<!DOCTYPE html><html lang="en"><head>
   
+  <!-- SEO -->
+  <meta content="Gaurang, Goel, ux, ui, designer, product" name="keywords">
+  <meta content="Product Designer based in Dallas." name="description">
+  <meta property="og:image" content="img/favicon/mstile-150x150.png">
+  <meta property="og:description" content="Product Designer based in Dallas.">
+  <meta property="og:url" content="https://gauranggoel.com">
+  <meta property="og:title" content="Gaurang Goel">
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="../fonts.googleapis.com/css2.css" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="img/favicon/android-chrome-512x512.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/mstile-150x150.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Gaurang</title>
 </head>
 
-<body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#home">
-                
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#home" data-after="Home">Home</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Header -->
+<body class="preloader-visible" data-barba="wrapper">
 
 
-  <!-- home Section  -->
-  <section id="home">
-    <div class="home container">
-      <div>
-        <h1>Welcome, <span></span></h1>
-        <h1>I am <span></span></h1>
-        <h1>Gaurang Goel<span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
-      </div>
-    </div>
-  </section>
-  <!-- End home Section  -->
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="images/Main_Pic.png" alt="img">
-        </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <h2>Student - Computer Science Major</h2>
-        <p>Hello,</p>
-        <p>My name is Gaurang Goel, and I am a sophomore studying Computer Science at <a href ="https://utdallas.edu">University of Texas at Dallas</a>, as well as an upcoming Esports Professional in the fields of coaching, analysis, and design; specifically in the game Clash of Clans.
-        </p>
-        <p>My passion is to find creative solutions for unique problems, whether it is finding the shortest way to write a line of code, solving programming errors, or creating new pathway for my team in Esports. I enjoy finding resolution in situations where there is not one currently, since it gives me great satisfaction as I learn new skills on day to day basis.</p>
-        <p>My goal is to create a career path in the new digital era, and plan to use my skills in programming, graphic designing and esports to ensure I am well rounded in facilitating the needs of any group or company I work with.
-        </p>
-        <a href="pdf/Resume.pdf" target="_blank" class="cta">Resume</a>
-      </div>
+    <div class="preloader__progress">
+      <div class="preloader__progress__inner"></div>
+      <img src="img/general/loader.svg" alt="preloader image" class="preloader__img">
     </div>
-  </section>
-  <!-- End About Section -->
-  
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">My <span>Projects</span></h1>
-      </div>
-      <div class="all-projects">
-        <!--<div class="project-item">
-          <div class="project-info">
-            <h1>Esports Leadership</h1>
-            <h2>Aphelion eSports</h2>
-            <p>I am currently working as a coach and analyst for the Clash of Clans professional team at Aphelion eSports, as well as a leader of their greater Clash of Clans Program.
-            </p>
-              <a href="ae.html" type="button" class="ctb">VIEW MORE</a>
-          </div>
-          <div class="project-img">
-            <img src="images/ae.png" alt="img">
-          </div>
-        </div>-->
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Esports Graphics</h1>
-            <h2>Aphelion eSports</h2>
-            <p>I manage Clash of Clans social media page for Aphelion eSports and have created numerous flyers and designs as part of those duties.
-            </p>
-            <a href="https://www.behance.net/gallery/126054899/Aphelion-Esports-Graphics" target="_blank" type="button" class="ctb">VIEW MORE</a>
-          </div>
-          <div class="project-img">
-            <img src="images/AE_Logo_w__Background_JPG.jpeg" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Profile Icons</h1>
-            <h2>Discord, Twitter, + more</h2>
-            <p>I have designed 100’s of profile icons over my tenure in the Clash of Clans and Fortnite Esports communities. I have worked closely with various individual and organization clients to improve their branding and meet the standards they wish to bring to market.</p>
-              <a href="https://www.behance.net/gallery/126056741/Profile-Icons" target="_blank" type="button" class="ctb">VIEW MORE</a>
-          </div>
-          <div class="project-img">
-            <img src="images/profile.png" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Banners</h1>
-            <h2>Advertising, Recruitment, Display</h2>
-            <p>I have coordinated the creation of numerous advertising, recruitment, results and display based banners for a variety of clients within the Clash of Clans community covering a wide variety of aesthetic preferences.</p>
-              <a href="https://www.behance.net/gallery/126055979/Banners" target="_blank" type="button" class="ctb">VIEW MORE</a>
-          </div>
-          <div class="project-img">
-            <img src="images/Welcome_rated.png" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Headers</h1>
-            <h2>Twitter, YouTube, + more</h2>
-            <p>I have designed over 50 profile headers for professional players and creators to assist in their visual identity and progression within their field. I have also worked to design headers for a multitude of professional base building organizations in Clash of Clans.</p>
-              <a href="https://www.behance.net/gallery/126055575/TwitterYouTubePatreon-Headers" target="_blank" type="button" class="ctb">VIEW MORE</a>
-          </div>
-          <div class="project-img">
-            <img src="images/header.png" alt="img"></a>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Projects Section -->
+  </div>
+  <!-- preloader end -->
 
-  <!-- Contact Section 
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">Contact <span>Me</span></h1>
-      </div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2>(650)495-4563</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><a href="mailto:Gaurang.Goel@utdallas.edu"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></a></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <a href="mailto:Gaurang.Goel@utdallas.edu" target="_blank" style="color: #000000; text-decoration: none;"><h2>Gaurang.Goel@UTDallas.edu</h2></a>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-          <div class="contact-info">
-            <h1>Current City</h1>
-            <h2>Dallas, TX</h2>
-          </div>
-        </div>
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
       </div>
     </div>
-  </section>
-  End Contact Section -->
+    <!-- to-top-button end -->
 
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand">
-        <h1>Gauran<span>GG</span>oel</h1>
-        <br>
-      </div>
-      <div class="social-icon">
-        <div class="social-item">
-          <a href="https://www.linkedin.com/in/gauranggoels" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
-        </div>
-        <div class="social-item">
-          <a href="https://twitter.com/GaurangGoels" target="_blank"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
-        </div>
-        <div class="social-item">
-          <a href="https://www.behance.net/gauranggoel" target="_blank"><img src="https://img.icons8.com/color/48/000000/behance.png"/></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Footer -->
-  <script src="css/js/index.js"></script>
-</body>
 
-</html>
+    <main class>
+
+
+      <!-- header start -->
+      <header class="header -light -sticky-light js-header">
+        <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="header__logo js-header-logo">
+            <a data-barba href="index.html">
+              <img class="header__logo__light js-lazy" src="#" data-src="img/logo/logo-light.png" alt="Logo">
+            </a>
+            <a data-barba href="index.html">
+              <img class="header__logo__dark js-lazy" src="#" data-src="img/logo/logo-dark.png" alt="Logo">
+            </a>
+          </div>
+
+          <div class="header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+
+        <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+
+              <div class="nav__content">
+                <div class="nav__content__left">
+                  <div class="navList__wrap">
+                    <ul class="navList js-navList">
+                      <li>
+                        <a data-barba href="index.html">
+                          Home
+                        </a>
+                      </li>
+
+                      <li class="menu-item-has-children">
+                        <a>UI/UX Design</a>
+
+                        <ul class="subnav-list">
+                          <li>
+                            <a data-barba href="coinio.html">Concept Crypto Currency App</a>
+                          </li>
+                          <li>
+                            <a data-barba href="youtube.html">Youtube, But Better!</a>
+                          </li>
+                          <li>
+                            <a data-barba href="coc.html">Clash of Clans Website</a>
+                          </li>
+                          <li>
+                            <a data-barba href="googleride.html">Google Ride</a>
+                          </li>
+                          <li>
+                            <a data-barba href="wedly.html">Wedly</a>
+                          </li>
+                          <li>
+                            <a data-barba href="dailyui.html">Daily Neuromorphic UI</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item-has-children">
+                        <a>Graphic Design</a>
+
+                        <ul class="subnav-list">
+                          <li>
+                            <a data-barba href="internship.html">Internship Case Study (Summer 2022)</a>
+                          </li>
+                          <li>
+                            <a data-barba href="logofolio.html">Logofolio</a>
+                          </li>
+                          <li>
+                            <a data-barba href="headerfolio.html">Headerfolio</a>
+                          </li>
+                          <li>
+                            <a data-barba href="bannerfolio.html">Bannerfolio</a>
+                          </li>
+                          <li>
+                            <a data-barba href="discord.html">Discord Profile Pictures</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a data-barba href="about.html">
+                          About me
+                        </a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="nav__content__right">
+                  <div class="nav__info">
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Socials
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="https://www.behance.net/gauranggoel" target="_blank">Behance</a>
+                        <a href="https://linkedin.com/in/gauranggoels" target="_blank">Linkedin</a>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Contact Me
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="mailto:gauranggoel144@gmail.com/index.html" target="_blank">Email</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+
+
+      <!-- section start -->
+      <section class="masthead -type-3 -full-height js-masthead-type-3 js-shapes">
+        <!-- shapes start -->
+        <div class="masthead-shapes -group-1">
+          <div class="masthead-shapes__item -item-1">
+            <div class="masthead-shapes__shape -white-2 -shadow-light js-shape"></div>
+          </div>
+          <div class="masthead-shapes__item -item-2">
+            <div class="masthead-shapes__shape -white-1 -shadow-light js-shape"></div>
+          </div>
+        </div>
+        <!-- shapes end -->
+
+        <!-- container start -->
+        <div class="container">
+          <div class="row">
+            <div class="col-auto">
+              <div class="masthead__content z-3">
+
+                <div data-split="lines" data-split-page-reveal>
+                  <div style="font-size: 2.5rem; line-height: 60px;" class="masthead__title fw-300 js-title">Namaste 🙏🏻 I'm Gaurang.</div>
+                  <h1 class="masthead__title fw-600 js-title">
+                    I'm a creative designer that designs <span class="text-accent">minimal</span> and <span class="text-accent">inclusive</span> products that provide <span class="text-accent">significant</span> value to people.
+                  </h1>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- container end -->
+
+        <!-- ui-element start -->
+        <div class="ui-element -bottom-left js-ui">
+          <div class="ui-element__social text-black js-bottom-left-links">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/gauranggoel"><i class="fa fa-behance"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gauranggoels"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+        <!-- ui-element end -->
+
+        <!-- ui-element start -->
+        <div class="ui-element -bottom sm:d-none js-ui">
+          <button type="button" class="ui-element__scroll text-black js-ui-scroll-button">
+            View Projects
+            <i class="icon" data-feather="arrow-down"></i>
+          </button>
+        </div>
+        <!-- ui-element end -->
+
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-pageHeader layout-pb-lg">
+        <!-- container start -->
+        <div class="container">
+
+          <!-- row start -->
+          <div class="row align-items-center ">
+            <div class="col-lg-7 pr-48 md:pr-16">
+              <div data-anim="img-right cover-dark-1 delay-1" data-parallax="0.7" class="ratio ratio-3:2">
+                <div data-parallax-target class="bg-image js-lazy" data-bg="img/Projects/Coinio_Mokup.png"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-8 pl-48 md:pl-16 md:mt-48">
+              <div data-anim="slide-up delay-1" class="sectionHeading -md">
+                <p class="sectionHeading__subtitle">
+                  Product Design
+                </p>
+                <h2 class="text-5xl md:text-4xl sm:text-3xl fw-700 mt-32 md:mt-24 sm:mt-20">
+                  Concept Crypto Currency App
+                </h2>
+                <a href="coinio.html" data-barba class="button -icon fw-500 text-black mt-24 md:mt-24 sm:mt-20">
+                  View Project
+                  <i class="icon size-lg str-width-sm ml-8" data-feather="arrow-right-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- row start -->
+          <div class="row align-items-center layout-pt-lg">
+            <div class="col-lg-7 pr-48 md:pr-16">
+              <div data-anim="img-right cover-dark-1 delay-1" data-parallax="0.7" class="ratio ratio-3:2">
+                <div data-parallax-target class="bg-image js-lazy" data-bg="img/Projects/Youtube_Mockup.png"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-8 pl-48 md:pl-16 md:mt-48">
+              <div data-anim="slide-up delay-1" class="sectionHeading -md">
+                <p class="sectionHeading__subtitle">
+                  Product Redesign
+                </p>
+                <h2 class="text-5xl md:text-4xl sm:text-3xl fw-700 mt-32 md:mt-24 sm:mt-20">
+                  YouTube, But Better!
+                </h2>
+                <a href="youtube.html" data-barba class="button -icon fw-500 text-black mt-24 md:mt-24 sm:mt-20">
+                  View Project
+                  <i class="icon size-lg str-width-sm ml-8" data-feather="arrow-right-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- row start -->
+          <div class="row align-items-center layout-pt-lg">
+            <div class="col-lg-7 pr-48 md:pr-16">
+              <div data-anim="img-right cover-dark-1 delay-1" data-parallax="0.7" class="ratio ratio-3:2">
+                <div data-parallax-target class="bg-image js-lazy" data-bg="img/Projects/coc_Mockup.png"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-8 pl-48 md:pl-16 md:mt-48">
+              <div data-anim="slide-up delay-1" class="sectionHeading -md">
+                <p class="sectionHeading__subtitle">
+                  User Interface Design
+                </p>
+                <h2 class="text-5xl md:text-4xl sm:text-3xl fw-700 mt-32 md:mt-24 sm:mt-20">
+                  Concept Website: Clash of Clans
+                </h2>
+                <a href="coc.html" data-barba class="button -icon fw-500 text-black mt-24 md:mt-24 sm:mt-20">
+                  View project
+                  <i class="icon size-lg str-width-sm ml-8" data-feather="arrow-right-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- row start -->
+          <div class="row align-items-center layout-pt-lg">
+            <div class="col-lg-7 pr-48 md:pr-16">
+              <div data-anim="img-right cover-dark-1 delay-1" data-parallax="0.7" class="ratio ratio-3:2">
+                <div data-parallax-target class="bg-image js-lazy" data-bg="img/Projects/Internship_Mockup.jpeg"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-8 pl-48 md:pl-16 md:mt-48">
+              <div data-anim="slide-up delay-1" class="sectionHeading -md">
+                <p class="sectionHeading__subtitle">
+                 Graphic Design
+                </p>
+                <h2 class="text-5xl md:text-4xl sm:text-3xl fw-700 mt-32 md:mt-24 sm:mt-20">
+                  Internship Case Study: Summer 2022
+                </h2>
+                <a href="internship.html" data-barba class="button -icon fw-500 text-black mt-24 md:mt-24 sm:mt-20">
+                  View Case Study
+                  <i class="icon size-lg str-width-sm ml-8" data-feather="arrow-right-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- row start -->
+          <div class="row align-items-center layout-pt-lg">
+            <div class="col-lg-7 pr-48 md:pr-16">
+              <div data-anim="img-right cover-dark-1 delay-1" data-parallax="0.7" class="ratio ratio-3:2">
+                <div data-parallax-target class="bg-image js-lazy" data-bg="img/Projects/Google_Ride_Mockup.png"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-8 pl-48 md:pl-16 md:mt-48">
+              <div data-anim="slide-up delay-1" class="sectionHeading -md">
+                <p class="sectionHeading__subtitle">
+                 UI/UX Design
+                </p>
+                <h2 class="text-5xl md:text-4xl sm:text-3xl fw-700 mt-32 md:mt-24 sm:mt-20">
+                  Google Ride
+                </h2>
+                <a href="googleride.html" data-barba class="button -icon fw-500 text-black mt-24 md:mt-24 sm:mt-20">
+                  View Case Study
+                  <i class="icon size-lg str-width-sm ml-8" data-feather="arrow-right-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+           <!-- row start -->
+           <div class="row align-items-center layout-pt-lg">
+            <div class="col-lg-7 pr-48 md:pr-16">
+              <div data-anim="img-right cover-dark-1 delay-1" data-parallax="0.7" class="ratio ratio-3:2">
+                <div data-parallax-target class="bg-image js-lazy" data-bg="img/Projects/dailyui_Mockup.png"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-8 pl-48 md:pl-16 md:mt-48">
+              <div data-anim="slide-up delay-1" class="sectionHeading -md">
+                <p class="sectionHeading__subtitle">
+                 User Interface Design
+                </p>
+                <h2 class="text-5xl md:text-4xl sm:text-3xl fw-700 mt-32 md:mt-24 sm:mt-20">
+                  Daily <span class="text-accent">Neuromorphic</span> UI Design
+                </h2>
+                <a href="dailyui.html" data-barba class="button -icon fw-500 text-black mt-24 md:mt-24 sm:mt-20">
+                  View Case Study
+                  <i class="icon size-lg str-width-sm ml-8" data-feather="arrow-right-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-lg layout-pb-lg">
+        <!-- container start -->
+        <div class="container">
+
+          <!-- row start -->
+          <div class="row justify-content-between align-items-end">
+            <div class="col-md-6">
+              <div class="sectionHeading -md">
+                <h2 class="sectionHeading__title">
+                  More Projects
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- row start -->
+          <div class="row x-gap-48 y-gap-48 layout-pt-sm">
+
+            <div class="col-lg-4 col-md-6">
+              <div data-anim-wrap class="blogCard -type-1 -hover animated">
+                <a class="blogCard__img bg-dark-1" data-barba href="wedly.html">
+                  <div data-anim-child="img-right cover-dark-1" class="is-in-view">
+                   
+                    <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="img/Projects/Wedly_Mockup.png"></div>
+                  </div>
+                </a>
+
+                <div class="blogCard__content mt-24">
+                  <div data-anim-child="slide-up delay-5" class="is-in-view">
+                    <div class="blogCard__info text-dark text-sm">
+                      UX/UI Design
+                    </div>
+                  </div>
+
+                  <div data-anim-child="slide-up delay-6" class="is-in-view">
+                    <h4 class="blogCard__title text-2xl fw-500 mt-12">
+                      <a data-barba href="wedly.html">
+                         Wedly: A Complete Wedding Planner
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div data-anim-child="slide-up delay-8" class="mt-12 is-in-view">
+                    <a data-barba href="wedly.html" class="button -icon text-black">
+                      View Case Study
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div data-anim-wrap class="blogCard -type-1 -hover animated">
+                <a class="blogCard__img bg-dark-1" data-barba href="logofolio.html">
+                  <div data-anim-child="img-right cover-dark-1" class="is-in-view">
+                   
+                    <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="img/Projects/LogoFolio_Mockup.png"></div>
+                  </div>
+                </a>
+
+                <div class="blogCard__content mt-24">
+                  <div data-anim-child="slide-up delay-5" class="is-in-view">
+                    <div class="blogCard__info text-dark text-sm">
+                      Graphic Design
+                    </div>
+                  </div>
+
+                  <div data-anim-child="slide-up delay-6" class="is-in-view">
+                    <h4 class="blogCard__title text-2xl fw-500 mt-12">
+                      <a data-barba href="logofolio.html">
+                         Logofolio
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div data-anim-child="slide-up delay-8" class="mt-12 is-in-view">
+                    <a data-barba href="logofolio.html" class="button -icon text-black">
+                      View Project
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div data-anim-wrap class="blogCard -type-1 -hover animated">
+                <a class="blogCard__img bg-dark-1" data-barba href="headerfolio.html">
+                  <div data-anim-child="img-right cover-dark-1" class="is-in-view">
+                   
+                    <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="img/Projects/Headerfolio_Mockup.png"></div>
+                  </div>
+                </a>
+
+                <div class="blogCard__content mt-24">
+                  <div data-anim-child="slide-up delay-5" class="is-in-view">
+                    <div class="blogCard__info text-dark text-sm">
+                      Graphic Design
+                    </div>
+                  </div>
+
+                  <div data-anim-child="slide-up delay-6" class="is-in-view">
+                    <h4 class="blogCard__title text-2xl fw-500 mt-12">
+                      <a data-barba href="headerfolio.html">
+                         Headerfolio
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div data-anim-child="slide-up delay-8" class="mt-12 is-in-view">
+                    <a data-barba href="headerfolio.html" class="button -icon text-black">
+                      View Project
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div data-anim-wrap class="blogCard -type-1 -hover animated">
+                <a class="blogCard__img bg-dark-1" data-barba href="bannerfolio.html">
+                  <div data-anim-child="img-right cover-dark-1" class="is-in-view">
+                   
+                    <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="img/Projects/Bannerfolio_Mockup.png"></div>
+                  </div>
+                </a>
+
+                <div class="blogCard__content mt-24">
+                  <div data-anim-child="slide-up delay-5" class="is-in-view">
+                    <div class="blogCard__info text-dark text-sm">
+                      Graphic Design
+                    </div>
+                  </div>
+
+                  <div data-anim-child="slide-up delay-6" class="is-in-view">
+                    <h4 class="blogCard__title text-2xl fw-500 mt-12">
+                      <a data-barba href="bannerfolio.html">
+                         Bannerfolio
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div data-anim-child="slide-up delay-8" class="mt-12 is-in-view">
+                    <a data-barba href="bannerfolio.html" class="button -icon text-black">
+                      View Project
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div data-anim-wrap class="blogCard -type-1 -hover animated">
+                <a class="blogCard__img bg-dark-1" data-barba href="discord.html">
+                  <div data-anim-child="img-right cover-dark-1" class="is-in-view">
+                   
+                    <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="img/Projects/Discord_Mockup.png"></div>
+                  </div>
+                </a>
+
+                <div class="blogCard__content mt-24">
+                  <div data-anim-child="slide-up delay-5" class="is-in-view">
+                    <div class="blogCard__info text-dark text-sm">
+                      Graphic Design
+                    </div>
+                  </div>
+
+                  <div data-anim-child="slide-up delay-6" class="is-in-view">
+                    <h4 class="blogCard__title text-2xl fw-500 mt-12">
+                      <a data-barba href="discord.html">
+                         Discord Profile Pictures
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div data-anim-child="slide-up delay-8" class="mt-12 is-in-view">
+                    <a data-barba href="discord.html" class="button -icon text-black">
+                      View Project
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right icon size-xs str-width-md"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          <!-- row end -->
+
+        </div>
+        <!-- container end -->
+      </div></section>
+
+      <!-- footer start -->
+      <footer class="footer -type-2 bg-white">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row">
+            <div class="col-auto">
+              <p class="footer__text text-lg md:text-base">
+                Let's connect; it's as simple as sending an email:
+              </p>
+
+              <a href="mailto:gauranggoel144@gmail.com" class="footer__link text-5xl md:text-4xl xs:text-3xl button -underline fw-700 text-black mt-20" target="_blank">
+                gauranggoel144@gmail.com
+              </a>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- row start -->
+          <div class="row">
+            <div class="col-auto">
+              <div class="footer__copyright">
+                <p class="text-sm">
+                  © 2022 Gaurang Goel. All Rights Reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- shapes start -->
+          <div class="footer__shapes">
+            <div></div>
+            <div></div>
+          </div>
+          <!-- shapes end -->
+        </div>
+        <!-- container end -->
+      </footer>
+      <!-- footer end -->
+
+
+    </main>
+
+  </div>
+  <!-- barba container end -->
+
+
+  <!-- JavaScript -->
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+
+</body></html>
